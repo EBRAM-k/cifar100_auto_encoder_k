@@ -1,4 +1,7 @@
 # Image Colorization using Autoencoder on CIFAR-100
+![download](https://github.com/user-attachments/assets/4800ed0d-47da-43c5-ad77-e5ee8f07947d)
+
+
 
 This repository contains an implementation of an Autoencoder model to convert grayscale images into color images. The model is trained on the CIFAR-100 dataset using a combination of Convolutional Neural Networks (CNN) and Fully Connected layers.
 
@@ -57,7 +60,7 @@ To run this code, you need the following libraries:
 - NumPy
 - Matplotlib
 
-You can install the required packages using the following command:
+You can load model by:
 
 ```bash
-pip install tensorflow keras numpy matplotlib
+autoencoder = load_model('my_model.h5')
