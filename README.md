@@ -60,7 +60,3 @@ To run this code, you need the following libraries:
 - NumPy
 - Matplotlib
 
-You can load model by:
-
-```bash
-autoencoder = load_model('my_model.h5')
